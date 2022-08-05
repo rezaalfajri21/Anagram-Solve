@@ -29,6 +29,7 @@ export default {
   },
    async created(){
       this.sort();
+      document.title = "Movies";
   },
   mounted() {
     this.sort();
