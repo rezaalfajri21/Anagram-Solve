@@ -29,7 +29,7 @@ export default {
   },
    async created(){
       this.sort();
-      document.title = "Movies";
+      document.title = "Anagram Solve";
   },
   mounted() {
     this.sort();
